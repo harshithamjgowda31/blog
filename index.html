@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - Simple Ecommerce</title>
+    <style>
+        body
+        {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .blog-post {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .blog-post img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .blog-post h2 {
+            margin-top: 10px;
+        }
+        .blog-post p {
+            line-height: 1.6;
+        }
+        button {
+            padding: 10px 15px;
+            background: #333;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ecommerce Blog</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="#" onclick="history.back()">Go Back</a>
+    </nav>
+
+    <div class="container">
+        <div class="blog-post">
+            <img src="https://picsum.photos/800/300?random=10" alt="Blog Image 1">
+            <h2>How to Choose the Best Products Online</h2>
+            <p>Shopping online can be overwhelming, but with the right tips, you can easily find the best products. Always compare reviews, check ratings, and look at detailed descriptions before buying.</p>
+        </div>
+
+        <div class="blog-post">
+            <img src="https://picsum.photos/800/300?random=11" alt="Blog Image 2">
+            <h2>Top 5 Trending Items of This Month</h2>
+            <p>This month's popular items include gadgets, fashion accessories, and home essentials. Make sure to grab them before the stock runs out!</p>
+        </div>
+
+        <div class="blog-post">
+            <img src="https://picsum.photos/800/300?random=12" alt="Blog Image 3">
+            <h2>Why Online Shopping Is Better Than Offline</h2>
+            <p>Online shopping offers convenience, better pricing, and a wider range of options. You can compare multiple stores instantly without leaving your home.</p>
+        </div>
+    </div>
+</body>
+</html>
